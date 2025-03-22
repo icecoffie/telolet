@@ -1,1 +1,2 @@
-# telolet
+# telolet  
+buat project telolet pake arduino
