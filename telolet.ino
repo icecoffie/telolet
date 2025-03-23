@@ -1,44 +1,7 @@
-/*******************************************************************************
- * DFPlayer_Mini_Mp3, This library provides a quite complete function for      * 
- * DFPlayer mini mp3 module.                                                   *
- * www.github.com/dfrobot/DFPlayer_Mini_Mp3 (github as default source provider)*
- *  DFRobot-A great source for opensource hardware and robot.                  *
- *                                                                             *
- * This file is part of the DFplayer_Mini_Mp3 library.                         *
- *                                                                             *
- * DFPlayer_Mini_Mp3 is free software: you can redistribute it and/or          *
- * modify it under the terms of the GNU Lesser General Public License as       *
- * published by the Free Software Foundation, either version 3 of              *
- * the License, or any later version.                                          *
- *                                                                             *
- * DFPlayer_Mini_Mp3 is distributed in the hope that it will be useful,        *
- * but WITHOUT ANY WARRANTY; without even the implied warranty of              *
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               *
- * GNU Lesser General Public License for more details.                         *
- *                                                                             *
- * DFPlayer_Mini_Mp3 is distributed in the hope that it will be useful,        *
- * but WITHOUT ANY WARRANTY; without even the implied warranty of              *
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the               *
- * GNU Lesser General Public License for more details.                         *
- *                                                                             *
- * You should have received a copy of the GNU Lesser General Public            *
- * License along with DFPlayer_Mini_Mp3. If not, see                           *
- * <http://www.gnu.org/licenses/>.                                             *
- *									       *
- ******************************************************************************/
-
-/*
- *	Copyright:	DFRobot
- *	name:		DFPlayer_Mini_Mp3 sample code
- *	Author:		lisper <lisper.li@dfrobot.com>
- *	Date:		2014-05-30
- *	Description:	connect DFPlayer Mini by SoftwareSerial, this code is test on Uno
- *			Note: the mp3 files must put into mp3 folder in your tf card 
- */
 #include <SoftwareSerial.h>
 #include <DFPlayer_Mini_Mp3.h>
 
-SoftwareSerial mySerial(10, 11); // RX, TX
+SoftwareSerial mySerial(10, 11); 
 
 const int pb1 = 1;
 const int pb2 = 2;
